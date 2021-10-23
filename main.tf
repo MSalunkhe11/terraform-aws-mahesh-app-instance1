@@ -1,3 +1,6 @@
+provider "aws" {
+  region = "us-east-1"
+}
 variable "os" {
   type = string
   default = "ami-02e136e904f3da870"
